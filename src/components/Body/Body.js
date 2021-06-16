@@ -11,7 +11,6 @@ export default function Body() {
             <div className="box"></div>
             <div className="box"></div>
             <div className="box"></div>
-            
         </Wrapper>
     )
 }

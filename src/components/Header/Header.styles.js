@@ -29,6 +29,11 @@ export const HeaderText = styled.h3`
   font-size: 1rem;
   display: flex;
   align-items: center;
+
+  &:hover {
+    cursor: pointer;
+    color: #37c7c9;
+  }
 `;
 
 export const LogoImg = styled.img`
