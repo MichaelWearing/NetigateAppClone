@@ -4,7 +4,7 @@ export const Wrapper = styled.div`
   display: flex;
   justify-content: space-between;
 
-  min-height: 3.5rem;
+  min-height: 3rem;
 
   background: #164066;
   color: #ffffff;
@@ -26,7 +26,7 @@ export const HeaderRight = styled.div`
 export const HeaderText = styled.h3`
   margin: 0 1.5rem;
 
-  font-size: 1rem;
+  font-size: 15px;
   display: flex;
   align-items: center;
 
