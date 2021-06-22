@@ -1,5 +1,8 @@
 import React from "react";
 
+// Components
+import SurveyOverview from "../SurveyOverview/SurveyOverview"
+
 // Styles
 import {
   Wrapper,
@@ -37,7 +40,7 @@ export default function Body() {
         </BodyHeaderRight>
       </BodyHeader>
       <Wrapper>
-        <div className="box"></div>
+        <div className="box"><SurveyOverview /></div>
         <div className="box"></div>
         <div className="box"></div>
         <div className="box"></div>
