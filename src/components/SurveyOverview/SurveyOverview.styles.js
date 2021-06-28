@@ -61,7 +61,7 @@ export const HeaderTextRight = styled.p`
 `;
 
 export const SurveryBox = styled.div`
-  background: orange;
+  background: white;
 
   min-height: 33vh;
 

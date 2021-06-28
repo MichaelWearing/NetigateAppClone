@@ -19,15 +19,15 @@ import BarChartIcon from "@material-ui/icons/BarChart";
 
 //  The number after Answer should be a state
 
-export default function SurveyPreview() {
+export default function SurveyPreview({Title, LastEdit, Answers}) {
   return (
     <Wrapper>
       <PreviewBoxLeft>
-        <PBLTitle>Invitation workshop</PBLTitle>
-        <PBLText>Last edited: Today</PBLText>
+        <PBLTitle>{Title}</PBLTitle>
+        <PBLText>Last edited: {LastEdit}</PBLText>
       </PreviewBoxLeft>
       <PreviewBoxRight>
-        <PBRText>ANSWERS: 9</PBRText> {/* // State me */}
+        <PBRText>ANSWERS: {Answers}</PBRText> {/* // State me */}
         <PBRAnswers></PBRAnswers>
         <PBRIcons>
           <PBRIcon>

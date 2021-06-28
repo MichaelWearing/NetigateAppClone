@@ -5,6 +5,7 @@ export const Wrapper = styled.div`
   justify-content: space-between;
 
   background: white;
+  border-bottom: 1px solid lightgrey;
 `;
 
 export const PreviewBoxLeft = styled.div`
